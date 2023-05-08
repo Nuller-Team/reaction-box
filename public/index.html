@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>ReactionBOX</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.4.4/qrcode.min.js"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center">
+  <h1 class="text-4xl font-bold mb-4">👍ReactionBOX📦 </h1>
+  <p class="text-lg text-center mb-8">このアプリはリアルタイムで絵文字を送る事ができるアプリです。<br>プレゼン中やパーティーなど、コメントを投稿することが出来ます。</p>
+  <p><a id="roomLink" href="" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">今すぐ開始</a>
+  </p>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
